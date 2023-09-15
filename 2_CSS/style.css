@@ -1,0 +1,21 @@
+h2{
+    color: magenta;
+}
+
+p{
+    color: peru;
+}
+
+h3{
+    color: green;
+}
+
+/* 6 - Classes */
+.paragrafos{
+    background-color: aquamarine;
+    color: red;
+}
+
+.cor-textos{
+    color: firebrick;
+}
