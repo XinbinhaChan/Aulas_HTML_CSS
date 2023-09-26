@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 div{
     border: 5px dotted green;
     width: fit-content;
@@ -23,8 +27,27 @@ div{
     padding: 30px 50px 70px 90px;
 
     /* Propriedades extras */
+
     /* padding na horizontal */
     padding-inline: 40px;
+
     /* padding na vertical */
     padding-block: 20px;
+}
+
+/* Margin é parecido com o padding, mas muda a distância da borda com elementos externos */
+h1{
+    margin-bottom: 20px;
+    border: 2px solid purple;
+}
+
+.algum{
+    margin-bottom: 100px;
+    border-color: red;
+}
+
+.outro{
+    margin-bottom: 50px;
+    border-color: cyan;
+    margin-inline: auto;
 }
